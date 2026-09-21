@@ -12,3 +12,6 @@ frontend/dist/
 **/__pycache__/
 **/*.py[cod]
 **/.pytest_cache/
+# Local project data and generated files
+data/
+backend/data_store/
