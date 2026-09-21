@@ -1,0 +1,56 @@
+[
+  {
+    "report_id": "eval_report_01",
+    "text": "Date: 2026-01-10\nHemoglobin: 10.2 g/dL (12-16)\nWhite Blood Cell Count: 12.5 x10^3/uL (4.5-11.0)\nPlatelets: 250 10^3/uL (150-450)",
+    "expected_parameters": [
+      {
+        "test_name": "Hemoglobin",
+        "result_value": "10.2",
+        "unit": "g/dL",
+        "reference_range": "12-16",
+        "status": "Low"
+      },
+      {
+        "test_name": "White Blood Cell Count",
+        "result_value": "12.5",
+        "unit": "x10^3/uL",
+        "reference_range": "4.5-11.0",
+        "status": "High"
+      },
+      {
+        "test_name": "Platelets",
+        "result_value": "250",
+        "unit": "10^3/uL",
+        "reference_range": "150-450",
+        "status": "Normal"
+      }
+    ]
+  },
+  {
+    "report_id": "eval_report_02",
+    "text": "Date: 2026-04-10\nFast Glucose: 145 mg/dL (70-99)\nTotal Cholesterol: 220 mg/dL (< 200)\nHBsAg: Positive (Negative)",
+    "expected_parameters": [
+      {
+        "test_name": "Fast Glucose",
+        "result_value": "145",
+        "unit": "mg/dL",
+        "reference_range": "70-99",
+        "status": "High"
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "result_value": "220",
+        "unit": "mg/dL",
+        "reference_range": "< 200",
+        "status": "High"
+      },
+      {
+        "test_name": "HBsAg",
+        "result_value": "Positive",
+        "unit": null,
+        "reference_range": "Negative",
+        "status": "Unknown"
+      }
+    ]
+  }
+]

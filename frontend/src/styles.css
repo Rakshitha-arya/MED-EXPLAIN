@@ -1,0 +1,16 @@
+:root { font-family: Inter, ui-sans-serif, system-ui, sans-serif; color: #13263d; background: #f5f8fb; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+.app-shell { min-height: 100vh; display: flex; flex-direction: column; }
+.site-header { display: flex; justify-content: space-between; align-items: center; padding: 1.1rem max(5vw, 1.5rem); background: #fff; border-bottom: 1px solid #dbe5ee; }
+.brand { color: #126a8a; font-size: 1.3rem; font-weight: 750; text-decoration: none; }
+nav { display: flex; gap: 1.25rem; } nav a { color: #38546c; text-decoration: none; }
+main { width: min(980px, 90vw); margin: 0 auto; flex: 1; }
+.hero { padding: 6rem 0 3.5rem; max-width: 720px; }
+.eyebrow { color: #126a8a; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; font-size: .78rem; }
+h1 { font-size: clamp(2.3rem, 6vw, 4.2rem); line-height: 1.08; margin: .4rem 0 1rem; }
+.intro { font-size: 1.15rem; line-height: 1.65; color: #476176; }
+button { background: #126a8a; color: white; border: 0; border-radius: .45rem; padding: .8rem 1.05rem; font: inherit; margin-top: 1rem; opacity: .65; cursor: not-allowed; }
+.foundation-card { background: white; border: 1px solid #dbe5ee; border-radius: .75rem; padding: 1.5rem; margin-bottom: 3rem; line-height: 1.6; }
+.foundation-card h2 { margin-top: 0; }
+.disclaimer { background: #e9f4f7; border-top: 1px solid #c8e0e7; padding: 1rem max(5vw, 1.5rem); color: #264557; line-height: 1.45; font-size: .9rem; }

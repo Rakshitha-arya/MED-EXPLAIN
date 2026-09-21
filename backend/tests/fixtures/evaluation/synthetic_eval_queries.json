@@ -1,0 +1,32 @@
+[
+  {
+    "id": "eval_q1",
+    "query": "What is thrombocytopenia?",
+    "relevant_source_row_ids": [16104],
+    "label_source": "Exact question and source_row_id read from the immutable MedQuAD metadata."
+  },
+  {
+    "id": "eval_q2",
+    "query": "What causes Thrombocytopenia?",
+    "relevant_source_row_ids": [16105],
+    "label_source": "Exact question and source_row_id read from the immutable MedQuAD metadata."
+  },
+  {
+    "id": "eval_q3",
+    "query": "What are the symptoms of Thrombocytopenia?",
+    "relevant_source_row_ids": [16107],
+    "label_source": "Exact question and source_row_id read from the immutable MedQuAD metadata."
+  },
+  {
+    "id": "eval_q4",
+    "query": "What causes Thrombocythemia and Thrombocytosis?",
+    "relevant_source_row_ids": [16098],
+    "label_source": "Exact question and source_row_id read from the immutable MedQuAD metadata."
+  },
+  {
+    "id": "eval_q5",
+    "query": "What are the symptoms of Thrombocythemia and Thrombocytosis?",
+    "relevant_source_row_ids": [16100],
+    "label_source": "Exact question and source_row_id read from the immutable MedQuAD metadata."
+  }
+]

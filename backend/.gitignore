@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+tmp_pytest/
+data_store/uploads/*
+!data_store/uploads/.gitkeep
+data_store/reports/*
+!data_store/reports/.gitkeep
+data_store/vector_index/*
+!data_store/vector_index/.gitkeep
